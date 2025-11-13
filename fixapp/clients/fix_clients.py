@@ -30,7 +30,7 @@ class BaseFixClient(fix.Application):
     open_orders = []
 
     '''=========================================================================
-    Internal message methdos
+    Internal message methods
     '''
 
 
@@ -493,4 +493,5 @@ class AutoFIXClient(BaseFixClient):
 
 
 if __name__ == '__main__':
+
     pass
